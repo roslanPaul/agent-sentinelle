@@ -1,0 +1,27 @@
+# Web Scraping
+playwright
+aiohttp
+beautifulsoup4
+lxml
+
+# Intelligence Artificielle
+openai
+
+# Base de données
+aiosqlite
+
+# Task Queue
+redis
+
+# Notifications
+python-telegram-bot
+
+# Utilities
+python-dotenv
+pydantic>=2.0
+pydantic-settings
+loguru
+
+# Testing
+pytest
+pytest-asyncio

@@ -1,0 +1,67 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# === Secrets & Config (CRITIQUE) ===
+.env
+.env.*
+!.env.example
+config/secrets.yaml
+config/*.json
+!config/default.json
+
+# === IDE & OS (Windows spécifique) ===
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# === Playwright & Scraping ===
+# On ignore les navigateurs téléchargés localement par Playwright si installés dans le projet
+.playwright/
+# Dossiers de captures d'écran/vidéos de debug
+screenshots/
+videos/
+test-results/
+
+# === Database & Logs ===
+*.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+*.tmp
+
+# === Outputs & Documents ===
+outputs/
+*.pdf
+*.docx
+*.csv
+*.xlsx
+# Dossier temporaire pour les rapports instantanés
+temp/
